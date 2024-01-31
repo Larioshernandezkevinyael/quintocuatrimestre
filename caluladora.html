@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora Básica</title>
+    <link rel="stylesheet" href="./estilos.css">
+</head>
+<body>
+    <div class="calculator">
+        <input type="text" id="display" readonly>
+        <div class="buttons">
+
+            <button onclick="agregarAlResultado('7')">7</button>
+            <button onclick="agregarAlResultado('8')">8</button>
+            <button onclick="agregarAlResultado('9')">9</button>
+            <button onclick="agregarAlResultado('/')">/</button>
+            <button onclick="agregarAlResultado('4')">4</button>
+            <button onclick="agregarAlResultado('5')">5</button>
+            <button onclick="agregarAlResultado('6')">6</button>
+            <button onclick="agregarAlResultado('*')">*</button>
+            <button onclick="agregarAlResultado('1')">1</button>
+            <button onclick="agregarAlResultado('2')">2</button>
+            <button onclick="agregarAlResultado('3')">3</button>
+            <button onclick="agregarAlResultado('-')">-</button>
+            <button onclick="agregarAlResultado('.')">.</button>
+            <button onclick="agregarAlResultado('0')">0</button>
+            <button onclick="agregarAlResultado('+')">+</button>
+            <button onclick="calcularResultado()">=</button>
+            <button onclick="limpiarPantalla('CE')">CE</button>
+            <button onclick="limpiarPantalla('C')">C</button>
+        </div>
+    </div>
+    <script src="./logica.js"></script>
+</body>
+</html>
